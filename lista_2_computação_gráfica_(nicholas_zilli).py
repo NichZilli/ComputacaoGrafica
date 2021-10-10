@@ -21,14 +21,14 @@ import imutils
 url_imagem_1 = "https://ccia.ugr.es/cvg/CG/images/base/1.gif"
 imagem_1 = io.imread(url_imagem_1)
 print("Imagem Original:\n")
-cv2_imshow(imagem)
+cv2_imshow(imagem_1)
 img_1_neg = 1 - imagem_1
 print("\nImagem Negativa:\n")
 cv2_imshow(img_1_neg)
 
 """2. Leia a imagem #43 do dataset, aplique e exiba a Transformação Log"""
 
-url_imagem_2 = "https://ccia.ugr.es/cvg/CG/images/base/42.gif"
+url_imagem_2 = 'https://ccia.ugr.es/cvg/CG/images/base/43.gif'
 imagem_2 = io.imread(url_imagem_2)
 print("Imagem Original:\n")
 cv2_imshow(imagem_2)
